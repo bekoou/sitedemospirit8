@@ -357,6 +357,7 @@
     #about-us p {
         font-size: 10px;
         margin-bottom: 10px;
+        letter-spacing: 0;
     }
 
     #about-us li {
@@ -421,6 +422,7 @@
     #services .section-description {
         font-size: 10px;
         margin: 70px 0;
+        letter-spacing: 0;
     }
 
     #services .col-sm-3 {
@@ -435,6 +437,7 @@
 
     .services-description {
         font-size: 11px;
+        letter-spacing: 0;
     }
 
     /*#########services############*/
@@ -559,6 +562,7 @@
     #about-us p {
         font-size: 6px;
         margin: 10px 0;
+        letter-spacing: 0;
     }
 
     #about-us li {
@@ -631,6 +635,7 @@
     .services-description {
         font-size: 6px;
         margin-bottom: 0;
+        letter-spacing: 0;
     }
 
 
@@ -671,6 +676,7 @@
         font-size: 6px;
         padding: 0;
         margin: 40px 0;
+        letter-spacing: 0;
     }
     #portfolio nav {
         margin-bottom: 20px;
