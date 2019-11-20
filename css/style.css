@@ -1,0 +1,687 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #222222;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+/*######### HEADER #########*/
+header {
+    position: absolute;
+    width: 100%;
+    top: 28px;
+}
+
+nav {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu .menu-list-item a {
+    position: relative;
+    transition: .2s;
+}
+
+.menu .menu-list-item a:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background: #fcac45;
+    transform: scaleY(0);
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: .4s;
+}
+
+.menu li a:hover:before {
+    transform: scale(1);
+}
+
+
+.menu .menu-list-item a:hover:before {
+    transform: scaleY(1);
+}
+
+.menu .menu-list-item a:hover:after {
+    transform: scaleY(1);
+}
+
+.menu .menu-list-item {
+    display: inline-block;
+    margin-left: 27px;
+}
+
+/*########### burger ###########*/
+
+.mobile-btn{
+    width: 45px;
+    height: 40px;
+    align-items: center;
+    display: none;
+}
+.mobile-btn span{
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    position: relative;
+    background: #fcac45;
+}
+.show span{
+    background: transparent;
+}
+.show span:before{
+    transform: rotate(-315deg) ;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.show span:after{
+    transform: rotate(315deg) ;
+    top: -20px;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.mobile-btn span:before, .mobile-btn span:after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #fcac45;
+    transition: .4s;
+}
+.mobile-btn span:before{
+    top: -10px;
+
+}
+.mobile-btn span:after{
+    bottom: -10px;
+
+}
+
+
+/*########### burger ###########*/
+
+
+
+
+.logo {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.logo:hover {
+    color: white;
+}
+
+.menu-list-item a {
+    color: #fff;
+    font-size: 14px;
+}
+
+/*######### HEADER #########*/
+
+/*######## HERO ##########*/
+
+#hero {
+    min-height: 100vh;
+    background: #111;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 20%;
+}
+
+.top-title {
+    color: #999;
+    font-size: 4.4rem;
+}
+
+.top-title span {
+    color: #fcac45;
+}
+
+.top-description {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.icon-arrow-down2 {
+    font-size: 12px;
+    color: #999;
+    border: 2px solid #999;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+
+
+/*######## HERO ##########*/
+
+/*######### About-US ##########*/
+#about-us {
+    padding: 0 40px;
+}
+
+.col-6 {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#about-us h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #636363;
+    margin-top: -4px;
+
+}
+
+#about-us h2 {
+    position: relative;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: default;
+}
+
+#about-us h2 span {
+    font-weight: 700;
+}
+
+#about-us p {
+    margin: 30px 0;
+    letter-spacing: -1px;
+    font-size: 18px;
+    color: #636363;
+}
+
+#about-us li {
+    position: relative;
+    font-size: 16px;
+    color: #636363;
+    margin-left: -20px;
+    list-style: none;
+    line-height: 2;
+}
+
+#about-us .icon-briefcase {
+
+    margin: 0 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#about-us a {
+    margin-top: 30px;
+    padding: 15px 25px;
+    border: #898989 1px solid;
+    font-size: 1.2rem;
+    color: #636363;
+    text-transform: uppercase;
+}
+
+#about-us li span {
+    margin-left: 10px;
+}
+
+#about-us h2:before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 90px;
+    height: 4px;
+    background: #fcac45;
+
+}
+
+#about-us i {
+    font-size: 14px;
+    margin-left: -20px;
+}
+
+/*######### About-US ##########*/
+
+/*######### team #############*/
+
+
+#team {
+    background: #070707;
+    color: white;
+    text-align: center;
+    padding: 100px 10px;
+
+}
+
+.title {
+    font-size: 4.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.title span {
+    font-weight: 600;
+
+}
+
+#team .col-3 {
+    margin-top: 100px;
+    padding: 5px;
+}
+
+#team .box {
+    padding: 20px 0;
+    margin-right: 10px;
+}
+
+#team h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#team h5 {
+    font-size: 14px;
+    color: #bdbdbd;
+    margin-bottom: 20px;
+}
+
+#team .image {
+    border-radius: 50%;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    transition: .2s;
+}
+
+#team .image:hover {
+    border: 2px #fcac45 solid;
+    transform: scale(1);
+}
+
+#team .image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+#team p {
+    line-height: 1.5;
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.title:before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background: #fcac45;
+    position: absolute;
+    bottom: -30px;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+}
+
+.title:after {
+    content: "";
+    width: 67px;
+    height: 4px;
+    background: #fcac45;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+/*######### team #############*/
+
+
+/*########## services #############*/
+
+#services {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+
+.section-description {
+    font-size: 16px;
+    margin: 90px 0;
+    font-weight: 500;
+    color: #767676;
+    letter-spacing: -1px;
+    font-style: italic;
+    padding: 0 20px;
+}
+
+.svg {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #fcac45;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.services-title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+.services-description {
+    font-size: 14px;
+    color: #595959;
+    font-weight: 500;
+}
+
+
+/*########## services #############*/
+
+
+/*########## clients##########*/
+
+#clients {
+    background: #0b0b0b;
+    text-align: center;
+    padding: 100px 30px;
+
+}
+
+#clients .title {
+    color: #fff;
+}
+
+.clients-list {
+    margin-top: 150px;
+    list-style: none;
+}
+
+.clients-list li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+
+/*########## clients##########*/
+
+/*########### portfolio###########*/
+
+#portfolio {
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.filter {
+    width: 100%;
+}
+
+#portfolio nav {
+    margin-bottom: 40px;
+}
+
+#portfolio .menu-list li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+#portfolio .logo-title {
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+
+
+#portfolio li a {
+    margin: 0 15px;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c6c6c;
+}
+
+#portfolio nav .line {
+    display: inline-block;
+    height: 14px;
+    width: 1px;
+    background: #6c6c6c;
+    margin: 0 10px;
+}
+
+#portfolio .active {
+    color: #222222;
+}
+
+#portfolio .portfolio-item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    height: 239px;
+}
+
+
+.portfolio-item .hover-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -239px;
+    background: #222222;
+    text-align: center;
+    padding: 25% 0;
+    transition: all .6s;
+}
+
+.portfolio-item:hover .hover-text {
+    bottom: 0;
+}
+
+
+#portfolio .portfolio-item a {
+    display: inline-block;
+}
+
+.hover-text h4 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.hover-text p {
+    font-size: 14px;
+    color: #b2b2b2;
+}
+
+.portfolio-item i {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fcac45;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #fcac45;
+}
+
+
+/*########### portfolio###########*/
+
+
+/*########### testimonials###########*/
+
+#testimonials {
+    background: #0b0b0b;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+#testimonials .container {
+    padding: 0 85px;
+}
+
+#testimonials .title {
+    color: #fff;
+}
+
+#testimonials p {
+    font-size: 1.8rem;
+    color: #e8e8e8;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 50px 0;
+    padding-top: 100px;
+}
+
+#testimonials h5 {
+    font-size: 18px;
+    color: #b2b2b2;
+    font-weight: 300;
+}
+
+#testimonials h5 span {
+    font-weight: 600;
+    padding-bottom: 75px;
+}
+
+/*########### testimonials###########*/
+
+/*########### contact###########*/
+
+#contact {
+    padding: 100px 5px;
+}
+
+form {
+    padding: 0 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact .container {
+    padding: 0 200px;
+}
+
+.form-control {
+    height: 40px;
+    font-size: 14px;
+}
+
+#contact .btn {
+    background: #fcac45;
+    color: white;
+    font-size: 16px;
+    padding: 5px 55px;
+    text-transform: uppercase;
+    float: right;
+    border: 1px solid #fcac45;
+
+}
+
+#contact .form-row span {
+    position: relative;
+    font-size: 14px;
+}
+
+#contact label span:before {
+    content: " * ";
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    color: #db0000;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    padding: 30px 5px;
+}
+
+/*########### contact###########*/
+
+
+/*########### Social###########*/
+
+#social {
+    background: #222222;
+    padding: 20px 40px;
+}
+
+#social .container {
+    padding-top: 10px;
+}
+
+#social p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #858585;
+    text-transform: uppercase;
+}
+
+#social span {
+    color: #b2b2b2;
+    font-weight: 700;
+}
+
+#social li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+#social li a {
+    color: #9f9f9f;
+    font-size: 13px;
+    border: 2px solid #9f9f9f;
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+
+/*########### Social###########*/

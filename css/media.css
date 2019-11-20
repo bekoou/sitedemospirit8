@@ -1,0 +1,756 @@
+@media (max-width: 1199.98px) {
+    /*##########hero#########*/
+    .hero-content {
+        padding: 40% 20px 30% 20px;
+    }
+
+    /*##########hero#########*/
+    /*##########about us#########*/
+    #about-us {
+        padding: 40px;
+    }
+
+    #about-us h3 {
+        font-size: 13px;
+    }
+
+    #about-us h2 {
+        font-size: 2.4rem;
+    }
+
+    #about-us h2:before {
+        width: 70px;
+    }
+
+    #about-us p {
+        font-size: 15px;
+    }
+
+    #about-us li {
+        font-size: 13px;
+    }
+
+    #about-us i {
+        font-size: 11px;
+    }
+
+    #about-us li span {
+        margin-left: 5px;
+    }
+
+    #about-us img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #about-us a {
+        font-size: 1rem;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    #about-us .icon-briefcase {
+        font-size: 8px;
+    }
+
+    /*##########about us#########*/
+    /*##########team#########*/
+    #team {
+        padding: 80px 20px;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    #about-us .col-6 {
+        padding: 0;
+    }
+
+    #about-us img {
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .title:before {
+        bottom: -20px;
+    }
+
+    .title:after {
+        bottom: -35px;
+    }
+
+    #team .image {
+        width: 130px;
+        height: 130px;
+    }
+
+    #team h4 {
+        font-size: 15px;
+    }
+
+    #team h5 {
+        font-size: 12px;
+    }
+
+    #team p {
+        font-size: 12px;
+    }
+
+    /*##########team#########*/
+    /*##########services#########*/
+    #services {
+        padding: 80px 20px;
+    }
+
+    .section-description {
+        font-size: 13px;
+        padding: 0 50px;
+    }
+
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .section-description {
+        font-size: 12px;
+    }
+
+    /*##########services#########*/
+    /*##########clients#########*/
+    #clients img {
+        width: 80%;
+    }
+
+    .clients-list {
+        margin-top: 100px;
+    }
+
+    .clients-list li {
+        margin: 50px 0;
+    }
+
+    /*##########clients#########*/
+    /*##########portfolio#########*/
+    #portfolio .logo-title {
+        font-size: 1.6rem;
+    }
+
+    #portfolio li a {
+        font-size: 16px;
+    }
+
+    /*##########portfolio#########*/
+    /*##########testimonials#########*/
+    #testimonials p {
+        padding-top: 50px;
+        font-size: 1.4rem;
+    }
+
+    #testimonials h5 {
+        font-size: 14px;
+    }
+
+    /*##########testimonials#########*/
+}
+
+
+@media (max-width: 991.98px) {
+    .menu {
+        display: none;
+    }
+
+    .mobile-btn {
+        display: flex;
+        z-index: 10;
+    }
+
+    .show-menu {
+        position: fixed;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        background: black;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9;
+        line-height: 4;
+    }
+
+    .show-menu li a:before {
+        opacity: 0;
+    }
+
+    .show-menu li a:hover {
+        color: #fcac45;
+        text-shadow: black;
+    }
+
+    /*############Hero###########*/
+    #hero {
+        min-height: 80vh;
+    }
+
+    #hero .col-6 {
+        padding: 20px 0;
+    }
+
+    .top-title {
+        font-size: 3.8rem;
+    }
+
+    .top-description {
+        font-size: 1.6rem;
+    }
+
+
+    /*############Hero###########*/
+    /*############about-us###########*/
+    #about-us h2 {
+        font-size: 2rem;
+    }
+
+    #about-us h2:before {
+        width: 60px;
+    }
+
+    /*############about-us###########*/
+    /*############services###########*/
+    .title {
+        font-size: 3rem;
+
+    }
+
+    .title:before {
+        width: 80px;
+    }
+
+    .title:after {
+        width: 60px;
+    }
+
+    .section-description {
+        margin: 90px 0 50px;
+    }
+
+    .svg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .services-title {
+        font-size: 15px;
+    }
+
+    .section-description {
+        font-size: 11px;
+    }
+
+    /*############services###########*/
+    /*############portfolio###########*/
+    #portfolio .logo-title {
+        font-size: 12px;
+    }
+
+    #portfolio li a {
+        font-size: 12px;
+    }
+
+    #portfolio nav .line {
+        height: 9px;
+        margin: 0 5px;
+    }
+
+    #portfolio .portfolio-item {
+        height: 170px;
+    }
+
+    #portfolio .hover-text h4 {
+        font-size: 12px;
+    }
+
+    .hover-text p {
+        font-size: 12px;
+    }
+
+    .portfolio-item i {
+        padding: 4px;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    /*############portfolio###########*/
+    /*############testimonials###########*/
+    #testimonials p {
+        font-size: 1rem;
+    }
+
+    #testimonials h5 {
+        font-size: 1rem;
+    }
+
+    /*############testimonials###########*/
+    /*############contact###########*/
+    #contact .container {
+        padding: 0 100px;
+    }
+
+
+    /*############contact###########*/
+    /*############social###########*/
+    #social {
+        padding: 10px 20px;
+    }
+
+    #social p {
+        font-size: 8px;
+    }
+
+    #social li a {
+        font-size: 10px;
+    }
+
+    /*############social###########*/
+}
+
+@media (max-width: 767.98px) {
+    /*#########Hero############*/
+    .top-title {
+        font-size: 3rem;
+    }
+
+    .top-description {
+        font-size: 12px;
+    }
+
+    #hero {
+        min-height: 60vh;
+    }
+
+    /*#########Hero############*/
+    /*#########about-us############*/
+    #about-us img {
+        object-fit: contain;
+        object-position: center;
+    }
+
+    #about-us .col-6 {
+        padding: 10px;
+    }
+
+    #about-us h3 {
+        font-size: 10px;
+    }
+
+    #about-us h2 {
+        font-size: 1.4rem;
+    }
+
+    #about-us h2:before {
+        width: 45px;
+    }
+
+    #about-us p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    #about-us li {
+        font-size: 8px;
+
+    }
+
+    #about-us i {
+        font-size: 7px;
+    }
+
+    #about-us a {
+        font-size: 7px;
+    }
+
+    #about-us .icon-briefcase {
+        font-size: 6px;
+    }
+
+    /*#########about-us############*/
+    /*#########team############*/
+    #team {
+        padding: 50px 15px;
+    }
+
+    #team .image {
+        width: 100px;
+        height: 100px;
+    }
+
+    #team h4 {
+        font-size: 10px;
+    }
+
+    #team h5 {
+        font-size: 8px;
+    }
+
+    #team p {
+        font-size: 7px;
+    }
+
+
+    /*#########team############*/
+    /*#########services############*/
+    #services {
+        padding: 50px 20px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .title:before {
+        width: 65px;
+    }
+
+    .title:after {
+        width: 45px;
+    }
+
+    #services .section-description {
+        font-size: 10px;
+        margin: 70px 0;
+    }
+
+    #services .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 20px 0;
+    }
+
+    .services-title {
+        font-size: 12px;
+    }
+
+    .services-description {
+        font-size: 11px;
+    }
+
+    /*#########services############*/
+    /*#########clients############*/
+    .clients-list {
+        padding: 0;
+    }
+
+
+    /*#########clients############*/
+    /*#########portfolio############*/
+    #portfolio .logo-title {
+        font-size: 8px;
+    }
+
+    #portfolio li a {
+        font-size: 8px;
+    }
+
+    #portfolio nav .line {
+        height: 5px;
+        margin: 0;
+    }
+
+    #portfolio ul {
+        margin-top: -2px;
+        margin-bottom: 0;
+    }
+
+    #portfolio .portfolio-item {
+        height: 110px;
+    }
+
+    #portfolio .hover-text h4 {
+        font-size: 7px;
+    }
+
+    .hover-text p {
+        font-size: 7px;
+    }
+
+    /*#########portfolio############*/
+    /*#########contact############*/
+    #contact {
+        padding: 60px 5px;
+    }
+
+    #contact .container {
+        padding: 0 10px;
+    }
+
+    /*#########contact############*/
+
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .menu .menu-list-item a {
+        font-size: 10px;
+    }
+
+    /*#############hero############*/
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    .mobile-btn {
+        width: 30px;
+    }
+
+    .show-menu {
+        padding: 0;
+    }
+
+    #hero .menu-list-item {
+        margin: 0;
+    }
+
+    .top-title {
+        font-size: 2rem;
+    }
+
+    .top-description {
+        font-size: 10px;
+    }
+
+    #hero {
+        padding: 0px;
+        min-height: 42vh;
+    }
+
+    #hero a {
+        opacity: 0;
+    }
+
+    /*#############hero############*/
+    /*#############about-us############*/
+    #about-us {
+        padding: 10px;
+    }
+
+    #about-us .col-6 {
+        margin-top: 5px;
+    }
+
+    #about-us h2 {
+        font-size: 10px;
+    }
+
+    #about-us h3 {
+        font-size: 8px;
+    }
+
+    #about-us h2:before {
+        width: 30px;
+        bottom: -5px;
+        height: 2px;
+    }
+
+    #about-us p {
+        font-size: 6px;
+        margin: 10px 0;
+    }
+
+    #about-us li {
+        font-size: 5px;
+    }
+
+    #about-us i {
+        font-size: 4px;
+    }
+
+    #about-us a {
+        font-size: 5px;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+
+    /*#############about-us############*/
+    /*#############team############*/
+
+    #team {
+        padding: 30px 10px;
+    }
+    .title {
+        font-size: 1.4rem;
+    }
+    .title:before {
+        width: 45px;
+        height: 2px;
+        bottom: -10px;
+    }
+    .title:after {
+        width: 30px;
+        bottom: -17px;
+        height: 2px;
+    }
+    #team .col-3 {
+        margin-top: 25px;
+    }
+    #team .image {
+        width: 50px;
+        height: 50px;
+    }
+    #team h4 {
+        font-size: 5px;
+        margin: 10px 0;
+    }
+    #team h5 {
+        font-size: 5px;
+        margin-bottom: 5px;
+    }
+    #team p {
+        font-size: 3px;
+    }
+    /*#############team############*/
+    /*#############services############*/
+
+    #services .section-description {
+        font-size: 7px;
+        margin: 35px 0;
+        padding: 0;
+    }
+    .svg {
+        width: 90px;
+        height: 90px;
+    }
+    .services-title {
+        font-size: 9px;
+        margin: 10px 0;
+    }
+    .services-description {
+        font-size: 6px;
+        margin-bottom: 0;
+    }
+
+
+    /*#############services############*/
+    /*#############clients############*/
+
+    #clients{
+        padding: 40px 10px;
+
+    }
+    .clients-list {
+        padding: 0;
+        margin: 20px 0;
+    }
+    .clients-list li {
+        margin: 20px 0;
+    }
+    #clients img {
+        width: 50%;
+    }
+
+    /*#############clients############*/
+    /*#############portfolio############*/
+
+    #portfolio {
+        padding: 40px 10px;
+    }
+    .portfolio-item .hover-text{
+        padding: 12% 0;
+
+    }
+    #portfolio ul {
+        margin-top: -5px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .section-description {
+        font-size: 6px;
+        padding: 0;
+        margin: 40px 0;
+    }
+    #portfolio nav {
+        margin-bottom: 20px;
+    }
+    #portfolio li a {
+        font-size: 4px;
+        margin: 0 4px;
+    }
+    #portfolio nav .line {
+        height: 3px;
+    }
+    #portfolio .col-sm-3{
+        width: 50%;
+    }
+    #portfolio .portfolio-item {
+        height: 125px;
+        margin: 10px auto;
+    }
+    /*#############portfolio############*/
+    /*#############testimonials############*/
+    #testimonials {
+        padding: 30px 5px;
+    }
+    #testimonials .container {
+        padding: 5px;
+    }
+    #testimonials p {
+        font-size: 7px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    #testimonials h5 {
+        font-size: 8px;
+    }
+    /*#############testimonials############*/
+    /*#############contact############*/
+    #contact {
+        padding: 20px 5px;
+    }
+    #contact .form-row span {
+        font-size: 9px;
+    }
+    .form-control {
+        height: 20px;
+        font-size: 6px;
+    }
+    #contact .col-sm-6{
+        width: 50%;
+    }
+    .form-group {
+        padding: 10px 5px;
+    }
+    #contact .btn {
+        font-size: 6px;
+        padding: 5px 15px;
+        margin-top: -10px;
+    }
+    /*#############contact############*/
+    /*#############social############*/
+
+    #social {
+        padding: 5px 0;
+    }
+    #social .container {
+        padding:0 5px;
+    }
+    #social p {
+        font-size: 3px;
+        margin: 8px;
+    }
+    #social li a {
+        font-size: 4px;
+        border: 1px solid #9f9f9f;
+    }
+    /*#############social############*/
+
+
+}
+
+
+
+
+
